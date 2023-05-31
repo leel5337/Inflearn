@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>회원가입</title>
+    <style>
+        * {
+            background: #FFFFFF;
+        }
+        .mb {
+            width: 670px;
+            height: 960px;
+            background: #FFFFFF;
+            margin-left: 625px;
+            margin-top: 60px;
+            border: 1px solid #AACDFF;
+            box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        .intro {
+            width: 466px;
+            height: 94px;
+            left: 725px;
+            top: 132px;
+            font-family: 'Noto Sans CJK KR';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 47px;
+            color: #0068FF;
+            margin-top: 72px;
+        }
+        .email {
+            width: 466px;
+            height: 80px;
+            border-bottom: 1px solid #0068FF;
+        }
+        .name {
+            width: 466px;
+            height: 80px;
+            margin-top: 20px;
+            border-bottom: 1px solid #CFCFCF;
+        }
+        .pw {
+            width: 466px;
+            height: 80px;
+            margin-top: 20px;
+            border-bottom: 1px solid #CFCFCF;
+        }
+        .pws {
+            width: 466px;
+            height: 80px;
+            margin-top: 20px;
+            border-bottom: 1px solid #CFCFCF;
+        }
+        .inp {
+            display: flex;
+        }
+        .gen {
+            margin: 0 10px;
+        }
+        .gender {
+            background: #EBEBEB;
+        }
+        .chec {
+            display: flex;
+        }
+        .check {
+            margin: 0 10px;
+        }
+        .line {
+            width: 470px;
+            height: 1px;
+            background: #E6E6E6;
+            margin: 20px 0;
+        }
+        .box {
+            width: 470px;
+            height: 75px;
+            background: #FFFFFF;
+            border: 1px solid #0068FF;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-family: 'Noto Sans CJK KR';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #0068FF;
+        }
+    </style>
+</head>
+<body>
+    <div class="mb">
+        <h2 class="intro">
+            회원가입을 위해<br>정보를 입력해주세요
+        </h2>
+        <div class="email">
+            * 이메일
+        </div>
+        <div class="name">
+            * 이름
+        </div>
+        <div class="pw">
+            * 비밀번호
+        </div>
+        <div class="pws">
+            * 비밀번호 확인
+        </div>
+        <br>
+        <br>
+        <div class="inp">
+            <div class="gen">
+                <input class="gender" type="radio" name="gender">여성
+            </div>
+            <div class="gen">
+                <input class="gender" type="radio" name="gender">남성
+            </div>    
+        </div>
+        <br>
+        <br>
+        <div class="chec">
+            <input class="check" type="checkbox">이용약관 개인정보 수집 및 이용, 마케팅 활용 선택에 모두 동의합니다.
+        </div>
+        <div class="line"></div>
+        <div class="box">
+            가입하기
+        </div>
+    </div>
+</body>
+</html>
