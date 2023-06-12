@@ -61,6 +61,7 @@ html, body {
 }
 .game__subtitle {
     font-size: 11px;
+    color: #999999;
 }
 .word__result {
     font-size: 11px;
@@ -82,4 +83,19 @@ html, body {
     font-weight: 700;
     width: 38px;
     height: 24px;
+}
+.rectangle {
+    width: 130px;
+    background: #0d0c06;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 3px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn {
+    margin-top: 5px;
+    border-radius: 5px;
 }
